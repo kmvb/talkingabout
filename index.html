@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Talking About</title>
+	 <link rel="stylesheet" href="style.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<div class="overlay">
+    <div class="overlayInner">
+    	<div class="first-font">#elxn42</div>
+      <div class="second-font">#elxn42</div>
+      <h1>What topic are you interested in?</h1>
+				<button class="button topic" data-keywords="environment OR change"><span>Environment</span></button>
+				<button class="button topic" data-keywords="aboriginal OR inuit OR north OR arctic"><span>Aboriginal</span></button>
+				<button class="button topic" data-keywords="economy OR finance OR taxe OR change OR job"><span>Economy</span></button>
+				
+				<button class="button topic" data-keywords="youth OR childcare OR kids"><span>Youth</span></button>
+				<button class="button topic" keywords="law OR police OR isis OR prison OR jail OR court OR judge OR gun "><span>Defence</span></button>
+				<button class="button topic" data-keywords="immigration OR "><span>Immigration</span></button>
+				<button class="button topic" data-keywords="education OR school OR university OR teacher"><span>Education</span></button>
+				<button class="button topic" data-keywords="seniors OR homecare"><span>Seniors</span></button>
+				<button class="button topic" data-keywords="health OR care OR medic OR doctor OR nurse"><span>Health</span></button>
+				<button class="button topic" data-keywords="fisheries OR ocean OR quota OR fish OR boat"><span>Fisheries</span></button>	
+				
+				<button class="button topic" data-keywords="energy OR climate OR oil OR change"><span>Energy</span></button>
+				<button class="button topic" data-keywords="infrastructure OR road OR development OR transport OR highway"><span>Infrastructure</span></button>
+				<button class="button topic" data-keywords="foreign affairs OR trade OR international OR development"><span>Foreign Affairs</span></button>
+				<button class="button topic" data-keywords="agriculture OR farm OR dairy OR trade OR tpp"><span>Agriculture</span></button>
+    </div>
+  </div>
+
+<div class="twitter">
+	<div class="wrapper">
+	<header class="header">
+		<h2 id="">Here is each team is saying saying about: </h2>
+		<p class="topic" id="topic"></p>	
+	</header>
+		<div class="container left">
+			<h3 class="team red"><span class="red">Red</span> Team</h2>	
+			<div class="tweets" id="tweet1"></div>	
+		</div>
+		<div class="container center">
+			<h3 class="team blue"><span class="blue">Blue</span> Team</h2>
+			<div class="tweets" id="tweet2"></div>
+		</div>	
+		<div class="container right">
+			<h3 class="team orange"><span class="orange">Orange</span> Team</h2>
+			<div class="tweets" id="tweet3"></div>
+		</div>
+		<div>
+			<button class="refresh">Other Topic</button>
+		</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
